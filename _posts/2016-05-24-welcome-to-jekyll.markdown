@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Welcome to Jekyll!"
 date:   2016-05-24 11:27:20 +0800
 categories: jekyll update
@@ -23,3 +23,6 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+<h2>{{page.title}}</h2>
+<p>This is my first paper.</p>
+<p>{{page.date|date_to_string}}</p>

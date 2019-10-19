@@ -81,9 +81,9 @@
     for (let i = 1; i < 12; i++) {
       essay[i] = document.getElementById('essay' + i)
       setTimeout(() => {
-        if (i === 8) {
-          window.scrollTo(0, document.body.clientHeight)
-        }
+        // if (i === 8) {
+        //   window.scrollTo(0, document.body.clientHeight)
+        // }
         essay[i].style.display = "block"
       }, i * 1000)
     }

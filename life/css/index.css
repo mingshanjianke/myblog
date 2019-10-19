@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.container-swiper {
+  margin-top: .1rem;
+}
+.container-top {
+  margin-top: 0.1rem;
+  text-align: center;
+}
+.container-top span{
+  font-size: .65rem;
+  color: #F6463A;
+}
+.container-swiper .swiper-container{
+  width: 7rem;
+  height: 3.5rem;
+}
+img {
+  width: 7rem;
+  height: 4rem;
+}
+.container-essay {
+  font-family: KaiTi;
+  font-size: .4rem;
+  text-align: center;
+  margin-top: .1rem;
+  color: #555555;
+}
+.container-essay-item {
+  display: none;
+}
+.container-wish {
+  font-family: KaiTi;
+  font-size: .4rem;
+  text-align: center;
+  margin-top: .1rem;
+  color: #F6463A;
+}
+.container-wish-item {
+  display: none;
+}

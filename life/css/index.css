@@ -25,19 +25,21 @@ img {
   font-family: KaiTi;
   font-size: .4rem;
   text-align: center;
-  margin-top: .1rem;
+  margin-top: .5rem;
   color: #555555;
 }
 .container-essay-item {
+  margin-top: .1rem;
   display: none;
 }
 .container-wish {
   font-family: KaiTi;
   font-size: .4rem;
   text-align: center;
-  margin-top: .1rem;
+  margin-top: .5rem;
   color: #F6463A;
 }
 .container-wish-item {
+  margin-top: .1rem;
   display: none;
 }

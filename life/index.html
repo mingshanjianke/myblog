@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title></title>
+  <title>生日快乐</title>
   <link rel="stylesheet" type="text/css" href="./css/index.css"/>
   <link rel="stylesheet" type="text/css" href="./css/animate.css"/>
   <link rel="stylesheet" type="text/css" href="./css/swiper.min.css"/>
@@ -42,19 +42,20 @@
         </div>
     </div>
     <div class="container-essay">
-      <div id="essay1" class="container-essay-item animated bounceInLeft">你</div>
-      <div id="essay2" class="container-essay-item animated bounceInLeft">如山间清爽的风</div>
-      <div id="essay3" class="container-essay-item animated bounceInLeft">如古城温暖的光</div>
-      <div id="essay4" class="container-essay-item animated bounceInLeft">如天边绚美的虹</div>
+      <div id="essay1" class="container-essay-item animated bounceInLeft">
+        <span>点绛唇</span>
+        <span>.李清照</span>
+      </div>
+      <div id="essay2" class="container-essay-item animated bounceInLeft">蹴罢秋千，起来慵整纤纤手。</div>
+      <div id="essay3" class="container-essay-item animated bounceInLeft">见客入来，袜刬金钗溜。</div>
+      <div id="essay4" class="container-essay-item animated bounceInLeft">和羞走，倚门回首，却把青梅嗅。</div>
     </div>
     <div class="container-wish">
-      <div id="essay5" class="container-wish-item animated bounce">祝</div>
-      <div id="essay6" class="container-wish-item animated flash">自律</div>
-      <div id="essay7" class="container-wish-item animated pulse">坚强</div>
-      <div id="essay8" class="container-wish-item animated rubberBand">努力</div>
-      <div id="essay9" class="container-wish-item animated shake">漂亮</div>
-      <div id="essay10" class="container-wish-item animated swing">的你</div>
-      <div id="essay11" class="container-wish-item animated heartBeat" style="font-size: .8rem;">生日快乐</div>
+      <div id="essay5" class="container-wish-item animated bounce">你</div>
+      <div id="essay6" class="container-wish-item animated flash">如山间清爽的风</div>
+      <div id="essay7" class="container-wish-item animated pulse">如古城温暖的光</div>
+      <div id="essay8" class="container-wish-item animated swing">如天边绚美的虹</div>
+      <div id="essay9" class="container-wish-item animated heartBeat" style="font-size: .8rem;">生日快乐</div>
     </div>
   </div>
   <script src="./js/swiper.min.js"></script>
@@ -78,7 +79,7 @@
     //   }, i * 1000 + 5000)
     // }
     let essay = []
-    for (let i = 1; i < 12; i++) {
+    for (let i = 1; i < 10; i++) {
       essay[i] = document.getElementById('essay' + i)
       setTimeout(() => {
         // if (i === 8) {

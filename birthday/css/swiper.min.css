@@ -6,7 +6,7 @@
  * Copyright 2014-2019 Vladimir Kharlampidi
  *
  * Released under the MIT License
- *
+ * 
  * Released on: September 30, 2019
  */
 
